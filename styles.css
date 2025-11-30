@@ -1,19 +1,22 @@
-#container{
+body{
+	background-color: rgb(250, 250, 250);
+}
+#cards-wrapper{
 	display: grid;
 	grid: row;
 	grid-template-columns: repeat(3, 1fr); 
     grid-gap: 10px;
 }
 
-#container div{
+.card{
 	border: 10px solid #ccc;
 	background-color: #fafafa;
 }
 
-h1{
+.card h1{
 	font-size: 1.5em;
 }
 
-p{
+.card p{
 	font-size: 0.75em
 }
